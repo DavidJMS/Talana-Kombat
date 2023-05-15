@@ -18,7 +18,7 @@ class FightViewSet(APIView):
                 "data": {
                     "energ_1": energy_1,
                     "energy_2": energy_2,
-                    "campeon": champion,
+                    "ganador": champion,
                     "history": history,
                 },
             },

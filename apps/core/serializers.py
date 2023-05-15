@@ -115,6 +115,7 @@ class CombatSerializer(serializers.Serializer):
                 self.player_1_golpes = data["player1"]["golpes"][i]
             except IndexError:
                 self.player_1_golpes = ""
+                self.damage_player_1 = 0
 
             self.combo_player_1_realizar = (
                 f"{self.player_1_movements} + {self.player_1_golpes}"
@@ -141,6 +142,7 @@ class CombatSerializer(serializers.Serializer):
                 self.player_2_golpes = data["player2"]["golpes"][i]
             except IndexError:
                 self.player_2_golpes = ""
+                self.damage_player_2 = 0
             self.combo_player_2_realizar = (
                 f"{self.player_2_movements} + {self.player_2_golpes}"
             )

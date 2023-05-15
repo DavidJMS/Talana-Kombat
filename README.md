@@ -51,6 +51,6 @@ De ser posible, que quede solo un commit con los cambios.
 
 # Respuestas:
 1. En ambos casos usualmente si ya hice commit vuelvo a agregar el archivo con git add . y luego un git commit --amend y luego un git push, si ya mergie tengo que realizar un pull en caso de que ya haya realizado un push.
-2. Git Flow.
-3. Cuando hay conflictos en muchos archivos y hay muchos contribuidores.
-5. AWS me parece mas adaptable a las necesidades y actualmente es mas popular.
+2. Git Flow. Cuando hay conflictos en muchos archivos y hay muchos contribuidores.
+3. Teorica, quisiera aprender!.
+4. AWS me parece mas adaptable a las necesidades y actualmente es mas popular.
